@@ -9,7 +9,7 @@ command: >-
 inputs:
   iris_csv: 
     type: uri_file
-    path: wasbs://datasets@azuremlexamples.blob.core.windows.net/iris.csv
+    path: https://mlopspractice9869741489.blob.core.windows.net/azureml-blobstore-22e1a354-8019-4931-ad25-ca1d7e2064b9/iris.csv   
   C: 0.8
   kernel: "rbf"
   coef0: 0.1
