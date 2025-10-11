@@ -44,8 +44,8 @@ def main(args):
 
 def process_data(df, random_state):
     # split dataframe into X and y
-    X = df.drop(["species"], axis=1)
-    y = df["species"]
+    X = df.drop(["variety"], axis=1)
+    y = df["variety"]
 
     # train/test split
     X_train, X_test, y_train, y_test = train_test_split(
